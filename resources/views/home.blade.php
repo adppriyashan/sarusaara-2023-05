@@ -14,14 +14,14 @@
                             <div class="row">
                                 <div class="col-8">
                                     <div class="numbers">
-                                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Today Sales</p>
+                                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Registered Farmers</p>
                                         <h5 class="font-weight-bolder mb-0">
-                                            LKR 53,000
+                                            101
                                         </h5>
                                     </div>
                                 </div>
                                 <div class="col-4 text-end">
-                                    <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
+                                    <div class="icon icon-shape bg-gradient-warning shadow text-center border-radius-md">
                                         <i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@
                                     </div>
                                 </div>
                                 <div class="col-4 text-end">
-                                    <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
+                                    <div class="icon icon-shape bg-gradient-warning shadow text-center border-radius-md">
                                         <i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -56,14 +56,14 @@
                             <div class="row">
                                 <div class="col-8">
                                     <div class="numbers">
-                                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Total Sales</p>
+                                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Activr Users</p>
                                         <h5 class="font-weight-bolder mb-0">
-                                            LKR 103,430
+                                            12
                                         </h5>
                                     </div>
                                 </div>
                                 <div class="col-4 text-end">
-                                    <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
+                                    <div class="icon icon-shape bg-gradient-warning shadow text-center border-radius-md">
                                         <i class="ni ni-cart text-lg opacity-10" aria-hidden="true"></i>
                                     </div>
                                 </div>

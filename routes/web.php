@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FarmerController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\UserTypeController;
 use Illuminate\Support\Facades\Auth;
@@ -28,4 +29,12 @@ Route::prefix('/usertypes')->group(function () {
     Route::get('/list', [UserTypeController::class, 'list'])->name('admin.usertypes.list')->middleware(['auth']);
     Route::get('/get', [UserTypeController::class, 'getOne'])->name('admin.usertypes.get.one')->middleware(['auth']);
     Route::get('/delete', [UserTypeController::class, 'deleteOne'])->name('admin.usertypes.delete.one')->middleware(['auth']);
+});
+
+Route::prefix('/farmers')->group(function () {
+    Route::get('/', [FarmerController::class, 'index'])->middleware(['auth', 'permitted'])->name('admin.farmers');
+    Route::post('/enroll', [FarmerController::class, 'enroll'])->name('admin.farmers.enroll')->middleware(['auth']);
+    Route::get('/list', [FarmerController::class, 'list'])->name('admin.farmers.list')->middleware(['auth']);
+    Route::get('/get', [FarmerController::class, 'getOne'])->name('admin.farmers.get.one')->middleware(['auth']);
+    Route::get('/delete', [FarmerController::class, 'deleteOne'])->name('admin.farmers.delete.one')->middleware(['auth']);
 });;

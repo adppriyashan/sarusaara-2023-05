@@ -5,7 +5,7 @@
           <p class="mb-0 text-secondary">
             Copyright © <script>
               document.write(new Date().getFullYear())
-            </script> {{ config('app.name', 'Laravel') }}, Powered By {{ env('APP_NAME') }}.
+            </script> {{ config('app.name', 'Laravel') }}.
           </p>
         </div>
       </div>
