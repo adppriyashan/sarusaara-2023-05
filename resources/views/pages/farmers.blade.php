@@ -79,7 +79,7 @@
                             value="{{ old('record') ? old('record') : '' }}">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="card-title">Add/Edit Products</h5>
+                                <h5 class="card-title">Add/Edit Farmers</h5>
                             </div>
                             <div class="card-content collapse show">
                                 <div class="card-body pt-0">
@@ -130,7 +130,8 @@
                                             <div class="row mt-1">
                                                 <div class="col-md-12">
                                                     <label for="image"><small class="text-dark">
-                                                            User's Image{!! required_mark() !!}</small></label>
+                                                            User's Image</small></label>
+                                                            <br>
                                                     <label for="image">
                                                         <img id="imageview"
                                                             src="{{ asset('assets/img/uploads/default.png') }}"
